@@ -1,0 +1,4 @@
+1. Install homebrew on your mac
+2. Install apache, mysql, php to your mac using home brew https://help.macstadium.com/articles/how-to-install-apache-mysql-and-php-using-homebrew-on-macos
+3. Setup the repo on your local, your local should be http://webdersleri.local (change your hosts file, change your vhosts config file)
+4. We finished CR of CRUD, create 2 php and 2 html files to delete and update user data form the mysql
