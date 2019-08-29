@@ -1,0 +1,35 @@
+body{
+    font-family: arial;
+}
+
+#main_wrapper{
+    width: 300px;
+    margin: 200px auto 20px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: #efefef;
+}
+
+.input_text{
+    width: 200px;
+    border:1px solid #ccc;
+    height:30px;
+    font-size:24px;
+    border-radius: 10px;
+}
+
+.form_item{
+    padding-bottom: 8px;
+    text-align: right;
+}
+
+#form_submit{
+    width: 100px;
+    height: 34px;
+    font-size: 18px;
+    background-color: #329efb;
+    padding: 0px 7px;
+    color: #fff;
+    border-radius: 10px;
+    float: right;
+}
