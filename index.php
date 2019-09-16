@@ -9,6 +9,8 @@
     <script src="js/common_functions.js"></script>
 </head>
 
+<?php print "test";?>
+
 <body>
     <div id="main_wrapper">
     <form id="user_crud" method="POST" action="login.php">
