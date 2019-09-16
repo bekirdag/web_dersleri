@@ -1,0 +1,43 @@
+Setup a unix server
+1. Install apache, mysql, php
+2. Secure the server
+	* ufw -> firewall should be active and should allow only certain port (80,22,443)
+3. Buy your domain name (nidaelyas.com cananengin.com)	
+4. Configure your apache vhosts to direct your domain name
+
+nidaelyas.com
+	-> Website is under construction
+
+
+ssh ile uzaktan terminal bağlantısı
+
+ssh key:
+
+two parts:
+1. Lock -> public
+2. Key -> private
+
+
+ssh key generate->
+Local machine 
+	/home/bekir/.ssh/id_rsa.pub
+	/home/bekir/.ssh/id_rsa.private
+	
+
+ssh login mechanism nasıl çalışır?
+
+1. Öncelikle server'a public key eklenir
+	Server: 
+		/root/.ssh/authorized_keys
+			cpy and paste -> /home/bekir/.ssh/id_rsa.pub
+
+2. ssh root@ipadress
+	Server -> Ben seni tanıyorum, private key'ini bana göster
+	Eğer private key mevcut ve doğru ise, login gerçekleşir.
+	
+
+Güvenlik -> brute force'u engelliyoruz
+
+
+
+	
